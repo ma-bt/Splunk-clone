@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Splunk-clone/static/css/main.ccc843c5.css",
+    "main.js": "/Splunk-clone/static/js/main.700ea1e2.js",
+    "static/js/787.ec704a7a.chunk.js": "/Splunk-clone/static/js/787.ec704a7a.chunk.js",
+    "index.html": "/Splunk-clone/index.html",
+    "main.ccc843c5.css.map": "/Splunk-clone/static/css/main.ccc843c5.css.map",
+    "main.700ea1e2.js.map": "/Splunk-clone/static/js/main.700ea1e2.js.map",
+    "787.ec704a7a.chunk.js.map": "/Splunk-clone/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc843c5.css",
+    "static/js/main.700ea1e2.js"
+  ]
+}
