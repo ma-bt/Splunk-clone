@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Navbar */
+
+.megamenu {
+  position: static;
+  transition: ease-out;
+  transition: 0.5s ease-out;
+  transition-delay: 0.5s;
+  color: black;
+}
+.megamenu:hover{
+
+  color: #E8339B !important ;
+
+  
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+  
+}
+
+.home  {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #e7e6e6, #ffbef4);
+  background: linear-gradient(to right, #dddddd, #c9b4fe);
+  min-height: 120vh;
+}
+
+code {
+  color: #745eb1;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+.nav-last {
+  margin: 0px 0px 0 250px;
+}
+.nav-last .last-btn button {
+  padding: 10px 20px;
+  background-color: #000000;
+  border-radius: 20px;
+  color: white;
+
+}
+
+
+/* Home */
+.banner h1 {
+  font-size: 50px;
+}
+.banner button {
+  padding: 10px 20px;
+  background-color: #E8339B;
+  border-radius: 20px;
+  color: white;
+}
+.banner-2 h1 {
+  font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1;
+   
+}
+
+
+.banner-2 h1 span{
+  font-size: 55px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+   
+}
+
+.banner-3 .box{
+  
+  width: 90%;
+    transition: transform .7s;
+    
+
+}
+.banner-3 .box:hover {
+  transform: scale(1.1);
+      overflow: hidden;
+
+}
+.banner-3 img {
+  width: 250px;
+  height: 150px;
+  
+}
+
+.banner-3 .banner-3-inner{
+  color: #E8339B;
+  padding-top: 60px ;
+  border-bottom: 0px solid;
+  transition-timing-function: ease-in;
+  transition: border 1s;
+}
+.banner-3 .banner-3-inner .bor{
+  color: #E8339B;
+  width: 0px;
+  transition-timing-function: ease-in;
+  transition: width 1s;
+}
+
+.banner-3 .box .banner-3-inner .bor:hover{
+  width: 100px  ;
+
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  background: rgb(255, 255, 255);
+  color: rgba(139, 138, 138, 0.8);
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgb(176, 175, 175);
+  padding: 0px 8px;
+  text-align: center;
+}
+
+
+/* Signup */ 
+.sign {
+  background-color: #b9b9b9;
+}
+.sign h1 {
+  color: rgba(114, 114, 114, 0.8);
+}
+
+/* Form */
+.form-1 {
+  border-top: 4px solid #E8339B;
+  border-left: 1px solid #cccc;
+  border-right: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+  
+}
+.form-1 button {
+  align-items: center;
+  margin: 2rem 2rem 1rem 2rem;
+  padding: 0.7rem 5rem;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+}
+ 
+/* Login */
+.log {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #f9dada, #8b5c83);
+  background: linear-gradient(to right, #bda7a7, #b4a4de);
+  min-height: 100vh;
+  
+  
+}
+.log-1 {
+  border-top: 4px solid #E8339B;
+  border-left: 1px solid #cccc;
+  border-right: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+  
+  
+}
+.log-1 button {
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem 6rem;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+
+}
+
+/* Template-page */
+.temp button {
+color: #E8339B;
+border-radius: 15px;
+border: 2px solid #E8339B;
+}
+
+
