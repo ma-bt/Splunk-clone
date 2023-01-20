@@ -118,7 +118,7 @@ export default function Template() {
                                                 <div className="col-lg-6">
                                                     <img src={a.url} className="w-100" alt="" style={{}} />
                                                 </div>
-                                                <div className="col-lg-6  py-2">
+                                                <div className="col-lg-6 ps-5 ">
                                                     <div className="card-body">
                                                         <p className="card-text">{a.body}</p>
                                                         <p className="card-text"><small className="text-muted">{a.des}</small></p>
