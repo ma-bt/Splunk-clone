@@ -17,8 +17,8 @@ export default function Template() {
                         <div className='my-4'>
                             <small>OUR TECHNOLOGY</small>
                         </div>
-                        <h1 className='fw-bold'>How we Help you turn data into doing</h1>
-                        <p>Our extensible data platform delivers unified security, full-stack observability and limitless custom applications.</p>
+                        <h1 className='fw-bold '>How we Help you turn data into doing</h1>
+                        <p className='pt-3'>Our extensible data platform delivers unified security, full-stack observability and limitless custom applications.</p>
 
                     </div>
                     <div className="col-lg-4 px-5 d-none d-lg-block">
