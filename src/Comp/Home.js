@@ -29,9 +29,9 @@ export default function Home() {
                 <div className="banner">
                     <div className="row ">
                         <div className="col-lg-6 mt-5  pt-5 ">
-                            <h1 className=' fw-bold px-5'>The Unified Security and Observability Platform </h1>
+                            <h1 className=' fw-bold px-5 '>The Unified Security and Observability Platform </h1>
                             <p className='px-5'>Go from visibility to action, fast and at scale.</p>
-                            <button type="button" class="btn mx-5">See the Power of Splunk &nbsp;<i class="bi bi-play-circle"></i></button>
+                            <button type="button" class="btn mx-5 mt-4">See the Power of Splunk &nbsp;<i class="bi bi-play-circle"></i></button>
                         </div>
                         <div className="col-lg-6 mb-5 d-none d-lg-block ">
                             <img src={Banner} className='banner-img' alt="abc" />
