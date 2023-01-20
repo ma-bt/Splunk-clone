@@ -19,13 +19,15 @@ function App() {
 
         <nav className="navbar navbar-expand-lg  bg-white py-3 shadow-sm">
           <div className="container-fluid mx-4">
-            <Link to="/Splunk-clone"  className="navbar-brand font-weight-bold d-block "><img src="https://www.splunk.com/content/dam/splunk-logo-dark.svg" alt="" /></Link>
+            <Link to="/Splunk-clone" className="navbar-brand font-weight-bold d-block "><img src="https://www.splunk.com/content/dam/splunk-logo-dark.svg" alt="" /></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div id="navbarSupportedContent" className="collapse navbar-collapse">
+            <div  className="collapse navbar-collapse" id="navbarSupportedContent">
 
-              <ul className="navbar-nav ">
+
+
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                 <li className="nav-item dropdown megamenu ms-3 fs-6 text-black fw-bold"><a id="megamneu" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="nav-link dropdown-toggle font-weight-bold dropdown-toggle">Products</a>
                   <div aria-labelledby="dropdownMenuButton1" className="dropdown-menu border-0 p-0 m-0">
@@ -201,65 +203,70 @@ function App() {
                     </div>
                   </div>
                 </li>
-                <li className="nav-item dropdown megamenu ms-3 fs-6 text-black fw-bold d-lg-none d-sm-block"><Link  to="/login"   aria-expanded="false" className="nav-link dropdown-toggle font-weight-bold ">Login</Link> </li>
+                <li className="nav-item dropdown megamenu ms-3 fs-6 text-black fw-bold d-lg-none d-sm-block"><Link to="/login" aria-expanded="false" className="nav-link dropdown-toggle font-weight-bold ">Login</Link> </li>
 
-                <li className="nav-item dropdown megamenu ms-3 fs-6 text-black fw-bold d-lg-none d-sm-block"><Link  to="/signup"   aria-expanded="false" className="nav-link dropdown-toggle font-weight-bold ">Sign Up</Link> </li>
+                <li className="nav-item dropdown megamenu ms-3 fs-6 text-black fw-bold d-lg-none d-sm-block"><Link to="/signup" aria-expanded="false" className="nav-link dropdown-toggle font-weight-bold ">Sign Up</Link> </li>
 
 
               </ul>
 
-              <div className='nav-last  d-none d-lg-flex gap-2'>
-                <div>
+
+
+              <div className='d-lg-flex  pt-2 gap-2 d-none'>
                 <div className="dropdown">
-                      <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Support
-                      </button>
-                      <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Supprt Portal</a></li>
-                        <li><a className="dropdown-item" href="#">Splunk Answers</a></li>
-                        <li><a className="dropdown-item" href="#">Support Programs</a></li>
-                        <li><a className="dropdown-item" href="#">System Status</a></li>
-                        <li><a className="dropdown-item" href="#">Contact Us</a></li>
-                      </ul>
-                    </div>
+                  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Support
+                  </button>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Supprt Portal</a></li>
+                    <li><a className="dropdown-item" href="#">Splunk Answers</a></li>
+                    <li><a className="dropdown-item" href="#">Support Programs</a></li>
+                    <li><a className="dropdown-item" href="#">System Status</a></li>
+                    <li><a className="dropdown-item" href="#">Contact Us</a></li>
+                  </ul>
                 </div>
 
-                <div><h5 className='pt-2'><i class="bi bi-search"></i></h5></div>
-                <div> <div className="dropdown">
-                      <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                      </button>
-                      <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Nepali</a></li>
-                        <li><a className="dropdown-item" href="#">Japanese</a></li>
-                        <li><a className="dropdown-item" href="#">Spamis</a></li>
-                        <li><a className="dropdown-item" href="#">Korean</a></li>
-                        <li><a className="dropdown-item" href="#">Egyptian</a></li>
-                      </ul>
-                    </div></div>
-                
-                <div>
+
+                <h5 className='pt-2'><i class="bi bi-search"></i></h5>
                 <div className="dropdown">
-                      <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Sign/Log in
-                      </button>
-                      <ul className="dropdown-menu">
-                        <li><Link className="dropdown-item" to="/signup">Sign up </Link></li>
-                        <li><Link className="dropdown-item" to="/login">Log in</Link></li>
-                        
-                      </ul>
-                    </div>
-                   
+                  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language
+                  </button>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Nepali</a></li>
+                    <li><a className="dropdown-item" href="#">Japanese</a></li>
+                    <li><a className="dropdown-item" href="#">Spamis</a></li>
+                    <li><a className="dropdown-item" href="#">Korean</a></li>
+                    <li><a className="dropdown-item" href="#">Egyptian</a></li>
+                  </ul>
                 </div>
+
+
+
+                <div className="dropdown">
+
+                  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sign/Log in
+                  </button>
+                  <ul className="dropdown-menu">
+                    <li><Link className="dropdown-item" to="/signup">Sign up </Link></li>
+                    <li><Link className="dropdown-item" to="/login">Log in</Link></li>
+
+                  </ul>
+                </div>
+
+
                 <div className='last-btn'>
-                <button type="button" class="btn ">Free Splunk</button>
+                  <button type="button" class="btn ">Free Splunk</button>
                 </div>
-
-
-
-
-
               </div>
+
+
+
+
+
+
+
             </div>
 
 
@@ -270,7 +277,7 @@ function App() {
       </div>
 
 
-      
+
       <Routes>
         <Route path="/Splunk-clone" element={<Home />} />
         <Route path="/signup" element={<Signup />} />

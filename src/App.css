@@ -55,15 +55,21 @@ code {
   padding: 0.1rem 0.2rem;
   border-radius: 0.2rem;
 }
-.nav-last {
+/* .nav-last {
   margin: 0px 0px 0 250px;
-}
-.nav-last .last-btn button {
+} */
+ .last-btn button {
   padding: 10px 20px;
   background-color: #000000;
   border-radius: 20px;
   color: white;
 
+}
+.nab 
+{
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 50px;
 }
 
 
