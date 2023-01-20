@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import Template from './Template';
+import Banner from '../Assets/img/banner.png'
 
 
 export default function Home() {
@@ -31,6 +32,9 @@ export default function Home() {
                             <h1 className=' fw-bold px-5'>The Unified Security and Observability Platform </h1>
                             <p className='px-5'>Go from visibility to action, fast and at scale.</p>
                             <button type="button" class="btn mx-5">See the Power of Splunk &nbsp;<i class="bi bi-play-circle"></i></button>
+                        </div>
+                        <div className="col-lg-6 mb-5 ">
+                            <img src={Banner} className='banner-img' alt="" />
                         </div>
                     </div>
                 </div>

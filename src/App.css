@@ -151,7 +151,15 @@ code {
   padding: 0px 8px;
   text-align: center;
 }
-
+.banner-img {
+  
+  -ms-transform: rotate(4deg); 
+  transform: rotate(4deg);
+  width: 700px;
+  
+  
+  margin-bottom: -50px;
+}
 
 /* Signup */ 
 .sign {
