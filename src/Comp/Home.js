@@ -34,9 +34,10 @@ export default function Home() {
                             <button type="button" class="btn mx-5">See the Power of Splunk &nbsp;<i class="bi bi-play-circle"></i></button>
                         </div>
                         <div className="col-lg-6 mb-5 ">
-                            <img src={Banner} className='banner-img' alt="" />
+                            <img src={Banner} className='banner-img' alt="abc" />
                         </div>
                     </div>
+
                 </div>
 
                 {/* 2nd-Banner */}
