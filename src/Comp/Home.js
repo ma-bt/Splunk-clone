@@ -33,7 +33,7 @@ export default function Home() {
                             <p className='px-5'>Go from visibility to action, fast and at scale.</p>
                             <button type="button" class="btn mx-5">See the Power of Splunk &nbsp;<i class="bi bi-play-circle"></i></button>
                         </div>
-                        <div className="col-lg-6 mb-5 ">
+                        <div className="col-lg-6 mb-5 d-none d-lg-block ">
                             <img src={Banner} className='banner-img' alt="abc" />
                         </div>
                     </div>
